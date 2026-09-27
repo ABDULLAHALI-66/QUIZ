@@ -239,4 +239,8 @@ WHERE o.order_status = 4
 GROUP BY b.brand_id, b.brand_name
 ORDER BY total_net_revenue DESC;
 
-
+/*
+1. Business Question: Which brand lines drive the highest sales volume and net revenue across completed orders?
+2. What It Measures: Total completed orders, units sold, and net revenue generated per brand.
+3. Why Care: Identifies top-performing brands for strategic vendor negotiations, stock allocation, and marketing spend.
+*/
